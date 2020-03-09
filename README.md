@@ -35,13 +35,19 @@ Link to file:
             d. Rate function: Try Except statements are used for date time stamp conversions
   
 3)	ETL main function: is where all the activities Extract, Clean, transform, and Export takes place:
-      a.	3 parameters are passed to ETL function that provides them path to each of the files
-      b.	The three function called upon within ETL function to  Extract, Clean, and transform the datasets.  
-      c.	The movie data-frame is developed with-in the ETL function
-      d.	Columns with missing data are dropped ie. video
-      e.	Movie dataset is re-ordered and the columns re-named
-      f.	Rating count is calculated and dataframes are build to merge pivot
-      g.	Lastly, cleaned data is put forth in 3 objects: a) movie_df, rating_counts, and movies with rating dataframe is extract.
+            a.	3 parameters are passed to ETL function that provides them path to each of the files
+            
+            b.	The three function called upon within ETL function to  Extract, Clean, and transform the datasets.  
+            
+            c.	The movie data-frame is developed with-in the ETL function
+            
+            d.	Columns with missing data are dropped ie. video
+            
+            e.	Movie dataset is re-ordered and the columns re-named
+            
+            f.	Rating count is calculated and dataframes are build to merge pivot
+            
+            g.	Lastly, cleaned data is put forth in 3 objects: a) movie_df, rating_counts, and movies with rating dataframe is extract.
 
 4)	The data frames within ETL function are then imported into pgAdmin 4 where they are stored in tables utilizing SQL
 
