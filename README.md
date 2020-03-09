@@ -24,7 +24,10 @@ Link to file: https://github.com/vsanand27/Movies-ETL/blob/master/Movie_Challeng
 
   1)	For Simplification, we developed 3 global functions: Weki, Kagel, and Rate: 
   
-  a) Note: the functions only work when ETL function passes parameter through, b) Having global functions to call upon results in easy maintenance without touching other parts of code and preventing further breakdown of code.
+      a) Note: the functions only work when parameter through ETL function
+      
+      b) Having global functions to call upon results in easy maintenance without touching other parts of code and preventing further breakdown of code.
+
 
 2)	To help ease of use and troubleshooting, all the 3 functions are equipped with Try-Except blocks
  
