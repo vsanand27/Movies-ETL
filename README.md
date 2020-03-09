@@ -8,12 +8,14 @@ Link to file:
 
 # Purpose
 1)	Develop Python script utilizing Jupyter notebook that performs all three ETL steps: 
-
       a.	Wikipedia
-      b.	Kaggle data 
+      b.	Kaggle data
       c.	Rating data
+
 2)	Adding try-except blocks will make the automated ETL script more robust to handle potentially unforeseen errors due to changes in the underlying data.
+
 3)	Extract, Clean, and transform the data automatically utilizing ETL function.
+
 4)	Export new data into PostgreSQL.
 
 # Assumptions
@@ -24,13 +26,13 @@ Link to file:
 
 2)	To help ease of use and troubleshooting, all the 3 functions are equipped with Try-Except blocks
  
-     a All Try Except statement prints two message: first section of code and second error message  
+           a All Try Except statement prints two message: first section of code and second error message  
 
-      b. Wiki function: Try Except are in the following sections that are more prone to errors, Re-naming column name, duplicate rows, columns w/ 90% of values missing, box office in dollars, budget, Date, and Run time
+            b. Wiki function: Try Except are in the following sections that are more prone to errors, Re-naming column name, duplicate rows, columns w/ 90% of values missing, box office in dollars, budget, Date, and Run time
 
-      c. Kagel function: Try Except statements are used when removing bad data and Changing data types
+            c. Kagel function: Try Except statements are used when removing bad data and Changing data types
 
-      d. Rate function: Try Except statements are used for date time stamp conversions
+            d. Rate function: Try Except statements are used for date time stamp conversions
   
 3)	ETL main function: is where all the activities Extract, Clean, transform, and Export takes place:
       a.	3 parameters are passed to ETL function that provides them path to each of the files
