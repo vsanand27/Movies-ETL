@@ -22,19 +22,19 @@ Link to file:
 
   1)	For Simplification, we developed 3 global functions: Weki, Kagel, and Rate.  
 
-    a.	Note: the functions only work when ETL function passes parameter through
+    a.<br />	Note: the functions only work when ETL function passes parameter through
 
-    b.	Having global functions to call upon results in easy maintenance without touching other parts of code and preventing further breakdown of code.
+    b.<br />	Having global functions to call upon results in easy maintenance without touching other parts of code and preventing further breakdown of code.
 
 2)	To help ease of use and troubleshooting, all the 3 functions are equipped with Try-Except blocks
  
-  a.	All Try Except statement prints two message: first section of code and second error message  
-  
-  b.	Wiki function: Try Except are in the following sections that are more prone to errors, Re-naming column name, duplicate rows, columns w/ 90% of values missing, box office in dollars, budget, Date, and Run time
-  
-  c.	Kagel function: Try Except statements are used when removing bad data and Changing data types
-  
-  d.	Rate function: Try Except statements are used for date time stamp conversions
+     a.<br />	All Try Except statement prints two message: first section of code and second error message  
+
+              b.	Wiki function: Try Except are in the following sections that are more prone to errors, Re-naming column name, duplicate rows, columns w/ 90% of values missing, box office in dollars, budget, Date, and Run time
+
+              c.	Kagel function: Try Except statements are used when removing bad data and Changing data types
+
+              d.	Rate function: Try Except statements are used for date time stamp conversions
   
 3)	ETL main function: is where all the activities Extract, Clean, transform, and Export takes place:
       a.	3 parameters are passed to ETL function that provides them path to each of the files
