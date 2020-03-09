@@ -22,7 +22,9 @@ Link to file: https://github.com/vsanand27/Movies-ETL/blob/master/Movie_Challeng
 
 # As we embarked down the journey to develop ETL function, we assumed the following:
 
-  1)	For Simplification, we developed 3 global functions: Weki, Kagel, and Rate: a) Note: the functions only work when ETL function passes parameter through, b) Having global functions to call upon results in easy maintenance without touching other parts of code and preventing further breakdown of code.
+  1)	For Simplification, we developed 3 global functions: Weki, Kagel, and Rate: 
+  
+  a) Note: the functions only work when ETL function passes parameter through, b) Having global functions to call upon results in easy maintenance without touching other parts of code and preventing further breakdown of code.
 
 2)	To help ease of use and troubleshooting, all the 3 functions are equipped with Try-Except blocks
  
@@ -35,6 +37,7 @@ Link to file: https://github.com/vsanand27/Movies-ETL/blob/master/Movie_Challeng
             d. Rate function: Try Except statements are used for date time stamp conversions
   
 3)	ETL main function: is where all the activities Extract, Clean, transform, and Export takes place:
+
             a.	3 parameters are passed to ETL function that provides them path to each of the files
             
             b.	The three function called upon within ETL function to  Extract, Clean, and transform the datasets.  
