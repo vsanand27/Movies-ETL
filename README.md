@@ -2,7 +2,7 @@
 Download movies data from website to perform Data Wrangling (Cleansing of datasets) and build data Pipeline for the future analysis.  
 
 # Background
-Amazing Prime loves the dataset and wants to keep it updated on a daily basis. Britta needs to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables.
+Amazon Prime loves the dataset and wants to keep it updated on a daily basis. Britta needs to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables.
 
 Link to file: https://github.com/vsanand27/Movies-ETL/blob/master/Movie_Challenge.ipynb
 
